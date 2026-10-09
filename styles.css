@@ -12,7 +12,7 @@
   --rust: #444444;
   --white: #ffffff;
   --accent-rgb: 17, 17, 17;
-  --shadow: 0 16px 40px rgba(20, 20, 25, 0.06);
+  --shadow: none;
 }
 
 * {
@@ -126,7 +126,7 @@ a {
   margin-bottom: 22px;
   padding: 10px 22px;
   border: 1px solid var(--blue);
-  border-radius: 999px;
+  border-radius: 0;
   background: var(--blue);
   color: var(--white);
   font-size: 1rem;
@@ -173,7 +173,7 @@ h1 {
   min-height: 44px;
   padding: 12px 18px;
   border: 1px solid var(--ink);
-  border-radius: 6px;
+  border-radius: 0;
   font-weight: 750;
   text-decoration: none;
 }
@@ -190,12 +190,12 @@ h1 {
 
 .systems-panel {
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 0;
   background:
     linear-gradient(135deg, rgba(31, 29, 26, 0.06), transparent 34%),
     linear-gradient(315deg, rgba(17, 17, 17, 0.04), transparent 42%),
     var(--white);
-  box-shadow: var(--shadow);
+  box-shadow: none;
   overflow: hidden;
 }
 
@@ -232,7 +232,7 @@ h1 {
   min-height: 76px;
   place-items: center;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 0;
   background: rgba(255, 255, 255, 0.82);
   font-weight: 800;
 }
@@ -244,7 +244,7 @@ h1 {
   bottom: -7px;
   width: 18px;
   height: 18px;
-  border-radius: 50%;
+  border-radius: 0;
   background: var(--blue);
 }
 
@@ -265,7 +265,7 @@ h1 {
 .legend i {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
+  border-radius: 0;
 }
 
 .human-key {
@@ -333,7 +333,7 @@ h1 {
 .project-preview,
 .writing-list article {
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 0;
   background: var(--white);
 }
 
@@ -388,7 +388,7 @@ h1 {
   align-items: center;
   justify-content: center;
   border: 1px solid var(--line);
-  border-radius: 50%;
+  border-radius: 0;
   color: var(--ink);
   font-size: 0.72rem;
   font-weight: 850;
@@ -406,7 +406,7 @@ h1 {
   min-height: 170px;
   padding: 18px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 0;
   background: var(--white);
 }
 
@@ -561,8 +561,8 @@ h1 {
 .about-photo {
   width: 100%;
   height: auto;
-  border-radius: 14px;
-  box-shadow: var(--shadow);
+  border-radius: 0;
+  box-shadow: none;
   border: 1px solid var(--line);
 }
 
@@ -591,7 +591,7 @@ h1 {
 .record {
   padding: 16px 20px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 0;
   background: var(--white);
 }
 
@@ -610,7 +610,7 @@ h1 {
   min-width: 34px;
   padding: 2px 6px;
   place-items: center;
-  border-radius: 6px;
+  border-radius: 0;
   background: var(--ink);
   color: var(--white);
   font-size: 0.74rem;
@@ -637,7 +637,7 @@ h1 {
   padding: 14px 18px;
   border: 1px solid var(--rust);
   border-left-width: 5px;
-  border-radius: 8px;
+  border-radius: 0;
   background: #fafafa;
 }
 
@@ -671,7 +671,7 @@ h1 {
 .finding {
   padding: 20px 22px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 0;
   background: var(--white);
 }
 
@@ -687,7 +687,7 @@ h1 {
   min-width: 36px;
   padding: 3px 8px;
   place-items: center;
-  border-radius: 6px;
+  border-radius: 0;
   background: var(--rust);
   color: var(--white);
   font-size: 0.78rem;
@@ -698,7 +698,7 @@ h1 {
   padding: 10px 14px;
   border-left: 3px solid var(--line);
   background: var(--soft);
-  border-radius: 0 6px 6px 0;
+  border-radius: 0;
   font-size: 0.95rem;
 }
 
@@ -771,7 +771,7 @@ a.text-button:hover {
   gap: 2px;
   padding: 16px 18px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 0;
   background: rgba(255, 255, 255, 0.85);
   text-align: center;
 }
@@ -788,7 +788,7 @@ a.text-button:hover {
 .stack-layer.human-layer {
   border-color: var(--ink);
   background: var(--ink);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 .stack-layer.human-layer strong {
@@ -891,9 +891,9 @@ a.text-button:hover {
   max-width: 760px;
   padding: 26px 28px;
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 0;
   background: var(--white);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 .relnote-head {
@@ -922,7 +922,7 @@ a.text-button:hover {
   display: inline-block;
   margin-top: 12px;
   padding: 4px 12px;
-  border-radius: 999px;
+  border-radius: 0;
   background: var(--soft);
   color: var(--muted);
   font-size: 0.74rem;
@@ -994,7 +994,7 @@ a.text-button:hover {
 .enablement-cards article:hover,
 .finding:hover {
   border-color: #e0e0e0;
-  box-shadow: 0 10px 30px rgba(31, 29, 26, 0.05);
+  box-shadow: none;
 }
 
 .nav a {
@@ -1053,7 +1053,7 @@ a.text-button:hover {
   gap: 10px;
   padding: 22px;
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 0;
   background: var(--white);
   color: var(--ink);
   text-decoration: none;
@@ -1068,7 +1068,7 @@ a.suite-tile:hover {
   background: #efefef;
   border-color: #d8d8d8;
   transform: translateY(-3px);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 a.suite-tile:focus-visible {
@@ -1163,7 +1163,7 @@ a.suite-tile:hover .suite-action span {
 .finding:hover,
 .blueprint-stage:hover {
   border-color: var(--brand);
-  box-shadow: 0 12px 30px rgba(17, 17, 17, 0.08);
+  box-shadow: none;
 }
 
 /* Dark section treatment — adds rhythm and contrast */
@@ -1234,14 +1234,14 @@ a.suite-tile:hover .suite-action span {
   padding: 28px;
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 14px;
-  box-shadow: var(--shadow);
+  border-radius: 0;
+  box-shadow: none;
   transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
 }
 
 .exp-card:hover {
   border-color: var(--brand);
-  box-shadow: 0 16px 40px rgba(17, 17, 17, 0.10);
+  box-shadow: none;
   transform: translateY(-3px);
 }
 
@@ -1260,7 +1260,7 @@ a.suite-tile:hover .suite-action span {
   content: "";
   width: 13px;
   height: 13px;
-  border-radius: 3px;
+  border-radius: 0;
   background: var(--brand);
 }
 
@@ -1309,7 +1309,7 @@ a.suite-tile:hover .suite-action span {
   background: rgba(var(--accent-rgb), 0.10);
   color: var(--blue);
   border: 1px solid rgba(var(--accent-rgb), 0.22);
-  border-radius: 999px;
+  border-radius: 0;
   padding: 0.34em 0.9em;
   transition: background .25s ease, border-color .25s ease;
 }
@@ -1321,14 +1321,14 @@ a.suite-tile:hover .suite-action span {
 
 /* buttons: keep green, add a soft lift + translucent shadow */
 .button{ transition: transform .18s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease, color .2s ease; }
-.button.primary{ box-shadow: 0 6px 18px rgba(var(--accent-rgb), 0.22); }
-.button.primary:hover{ transform: translateY(-2px); box-shadow: 0 10px 26px rgba(var(--accent-rgb), 0.30); }
+.button.primary{ box-shadow: none; }
+.button.primary:hover{ transform: translateY(-2px); box-shadow: none; }
 .button.secondary:hover{ transform: translateY(-2px); border-color: var(--blue); color: var(--blue); }
 
 /* systems panel + human-layer: soft green glow rather than hard edges */
 .systems-panel{ transition: box-shadow .3s ease, transform .3s ease; }
-.systems-panel:hover{ box-shadow: 0 18px 50px rgba(var(--accent-rgb), 0.16); }
-.stack-layer.human-layer{ box-shadow: 0 0 0 1px rgba(var(--accent2-rgb),0.22), 0 14px 40px rgba(var(--accent-rgb), 0.20); }
+.systems-panel:hover{ box-shadow: none; }
+.stack-layer.human-layer{ box-shadow: none; }
 
 /* gentle pulse on the flow arrows */
 .stack-flow{ animation: flowpulse 2.6s ease-in-out infinite; }
@@ -1336,7 +1336,7 @@ a.suite-tile:hover .suite-action span {
 
 /* card / tile hover lift */
 .exp-card, a.suite-tile, .writing-list article{ transition: transform .2s ease, box-shadow .25s ease, border-color .2s ease, background .25s ease; }
-.exp-card:hover, a.suite-tile:hover{ transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.10); }
+.exp-card:hover, a.suite-tile:hover{ transform: translateY(-4px); box-shadow: none; }
 .writing-list article:hover{ transform: translateY(-3px); background: rgba(var(--accent-rgb),0.04); }
 
 /* very subtle green wash on muted sections */
@@ -1361,23 +1361,82 @@ a.suite-tile:hover .suite-action span {
   border: 1px solid rgba(var(--accent-rgb), 0.28);
 }
 /* rounder, more modern surfaces */
-.button{ border-radius: 12px; }
+.button{ border-radius: 0; }
 .button.primary{
   background: linear-gradient(180deg, #222222, #111111);
   border-color: #000000;
-  box-shadow: 0 8px 20px rgba(var(--accent-rgb), 0.22);
+  box-shadow: none;
 }
-.suite-tile, a.suite-tile{ border-radius: 16px; }
-.exp-card{ border-radius: 18px; }
-.systems-panel{ border-radius: 18px; }
-.writing-list article{ border-radius: 16px; }
+.suite-tile, a.suite-tile{ border-radius: 0; }
+.exp-card{ border-radius: 0; }
+.systems-panel{ border-radius: 0; }
+.writing-list article{ border-radius: 0; }
 /* deeper, softer shadows for a modern, floating feel */
-.exp-card, a.suite-tile{ box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06); }
-.exp-card:hover, a.suite-tile:hover{ box-shadow: 0 22px 48px rgba(16, 24, 40, 0.12); }
-.systems-panel{ box-shadow: 0 14px 44px rgba(16, 24, 40, 0.08); }
+.exp-card, a.suite-tile{ box-shadow: none; }
+.exp-card:hover, a.suite-tile:hover{ box-shadow: none; }
+.systems-panel{ box-shadow: none; }
 /* glassy sticky header */
 .site-header{
   background: rgba(255, 255, 255, 0.72);
   -webkit-backdrop-filter: saturate(1.4) blur(10px);
   backdrop-filter: saturate(1.4) blur(10px);
+}
+
+
+/* ==========================================================================
+   v8 — squared editorial minimalism (sharp corners, flat, label eyebrows)
+   ========================================================================== */
+/* Eyebrows: plain uppercase labels, no pill, no fill */
+.eyebrow,
+.hero .eyebrow,
+.contact-section .eyebrow,
+.section.dark .eyebrow,
+.why.dark .eyebrow {
+  display: inline-block;
+  margin: 0 0 16px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.section.dark .eyebrow,
+.contact-section .eyebrow,
+.why.dark .eyebrow { color: #ffffff; }
+
+/* Flat surfaces: hairline borders carry separation, no lift/glow */
+.exp-card, a.suite-tile, .writing-list article, .enablement-cards article,
+.project-card, .blueprint-stage, .finding, .record, .systems-panel, .relnote,
+.suite-tile, .project-preview {
+  box-shadow: none;
+  border-radius: 0;
+}
+.exp-card:hover, a.suite-tile:hover, .writing-list article:hover,
+.enablement-cards article:hover, .finding:hover, .blueprint-stage:hover,
+.button.primary:hover, .button.secondary:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--ink);
+}
+a.suite-tile:hover { background: #f6f6f6; }
+
+/* Buttons: squared, flat, solid */
+.button { border-radius: 0; box-shadow: none; }
+.button.primary { background: var(--ink); border-color: var(--ink); color: #fff; }
+.button.primary:hover { background: #000; border-color: #000; }
+
+/* Square the small number badges / dots for a crisp, Swiss feel */
+.timeline li::before, .record-id, .finding h3 span,
+.workflow-node::after, .legend i, .status-dot, .pill { border-radius: 0; }
+
+/* Glassy header -> clean flat white with a hairline */
+.site-header {
+  background: #ffffff;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none;
 }
