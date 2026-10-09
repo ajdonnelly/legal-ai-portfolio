@@ -1,16 +1,17 @@
 :root {
   color-scheme: light;
   --ink: #191919;
-  --muted: #6f6d69;
-  --line: #e6e0d4;
+  --muted: #666666;
+  --line: #e6e6e6;
   --paper: #ffffff;
-  --soft: #f5f0e6;
-  --blue: #4a9c2d;
-  --brand: #79c143;
-  --green: #5f6b4f;
-  --gold: #79c143;
-  --rust: #9a5638;
+  --soft: #f6f6f6;
+  --blue: #111111;
+  --brand: #111111;
+  --green: #444444;
+  --gold: #111111;
+  --rust: #444444;
   --white: #ffffff;
+  --accent-rgb: 17, 17, 17;
   --shadow: 0 16px 40px rgba(20, 20, 25, 0.06);
 }
 
@@ -45,7 +46,7 @@ a {
   gap: 24px;
   padding: 16px clamp(18px, 4vw, 56px);
   border-bottom: 1px solid var(--line);
-  background: rgba(251, 250, 247, 0.82);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(16px);
 }
 
@@ -192,7 +193,7 @@ h1 {
   border-radius: 8px;
   background:
     linear-gradient(135deg, rgba(31, 29, 26, 0.06), transparent 34%),
-    linear-gradient(315deg, rgba(121, 193, 67, 0.16), transparent 42%),
+    linear-gradient(315deg, rgba(17, 17, 17, 0.04), transparent 42%),
     var(--white);
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -341,7 +342,7 @@ h1 {
 }
 
 .blueprint-stage.emphasized {
-  background: #f8faf7;
+  background: #fafafa;
 }
 
 .stage-header {
@@ -637,7 +638,7 @@ h1 {
   border: 1px solid var(--rust);
   border-left-width: 5px;
   border-radius: 8px;
-  background: #fdf6f3;
+  background: #fafafa;
 }
 
 .ai-chronology li.ok {
@@ -798,7 +799,7 @@ a.text-button:hover {
 }
 
 .stack-layer.human-layer span {
-  color: rgba(251, 252, 250, 0.75);
+  color: rgba(240, 240, 240, 0.75);
 }
 
 .stack-flow {
@@ -992,7 +993,7 @@ a.text-button:hover {
 .writing-list article:hover,
 .enablement-cards article:hover,
 .finding:hover {
-  border-color: #e0d8cb;
+  border-color: #e0e0e0;
   box-shadow: 0 10px 30px rgba(31, 29, 26, 0.05);
 }
 
@@ -1064,8 +1065,8 @@ a.text-button:hover {
 }
 
 a.suite-tile:hover {
-  background: #edece8;
-  border-color: #d3d3cd;
+  background: #efefef;
+  border-color: #d8d8d8;
   transform: translateY(-3px);
   box-shadow: var(--shadow);
 }
@@ -1168,7 +1169,7 @@ a.suite-tile:hover .suite-action span {
 /* Dark section treatment — adds rhythm and contrast */
 .section.dark {
   background: var(--ink);
-  color: #efece6;
+  color: #f0f0f0;
   border-block: 1px solid #2c2c2c;
 }
 
@@ -1178,7 +1179,7 @@ a.suite-tile:hover .suite-action span {
 
 .section.dark .section-heading p,
 .section.dark p {
-  color: rgba(245, 240, 230, 0.74);
+  color: rgba(240, 240, 240, 0.74);
 }
 
 .section.dark .eyebrow {
@@ -1186,14 +1187,14 @@ a.suite-tile:hover .suite-action span {
 }
 
 .section.dark a {
-  color: #d9c2ff;
+  color: #e0e0e0;
 }
 
 /* High-contrast contact close on every page */
 .contact-section {
   background: var(--ink);
   border-top: 1px solid #2c2c2c;
-  color: #efece6;
+  color: #f0f0f0;
 }
 
 .contact-section .eyebrow {
@@ -1205,7 +1206,7 @@ a.suite-tile:hover .suite-action span {
 }
 
 .contact-section p {
-  color: rgba(245, 240, 230, 0.74);
+  color: rgba(240, 240, 240, 0.74);
 }
 
 .contact-section .button.primary {
@@ -1215,8 +1216,8 @@ a.suite-tile:hover .suite-action span {
 }
 
 .contact-section .button.primary:hover {
-  background: #c977ff;
-  border-color: #c977ff;
+  background: #333333;
+  border-color: #333333;
 }
 
 /* Experience — two tiled cards with motif accent */
@@ -1314,7 +1315,7 @@ a.suite-tile:hover .suite-action span {
 }
 .section.dark .eyebrow, .why.dark .eyebrow{
   background: rgba(var(--accent2-rgb), 0.16);
-  color: #d3efc4;
+  color: #ededed;
   border-color: rgba(var(--accent2-rgb), 0.30);
 }
 
@@ -1362,8 +1363,8 @@ a.suite-tile:hover .suite-action span {
 /* rounder, more modern surfaces */
 .button{ border-radius: 12px; }
 .button.primary{
-  background: linear-gradient(180deg, #57ac35, #4a9c2d);
-  border-color: #45922a;
+  background: linear-gradient(180deg, #222222, #111111);
+  border-color: #000000;
   box-shadow: 0 8px 20px rgba(var(--accent-rgb), 0.22);
 }
 .suite-tile, a.suite-tile{ border-radius: 16px; }
